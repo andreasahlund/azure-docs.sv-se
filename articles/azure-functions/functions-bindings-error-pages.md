@@ -12,19 +12,19 @@ ms.contentlocale: sv-SE
 ms.lasthandoff: 11/03/2020
 ms.locfileid: "93284452"
 ---
-# <a name="azure-functions-error-handling-and-retries"></a>Azure Functions fel hantering och nya försök
+# <a name="azure-functions-error-handling-and-retries"></a>Azure Functions felhantering och nya försök
 
 Att hantera fel i Azure Functions är viktigt för att undvika förlorade data, missade händelser och för att övervaka hälso tillståndet för programmet.
 
-I den här artikeln beskrivs allmänna strategier för fel hantering tillsammans med länkar till platsspecifika fel.
+I den här artikeln beskrivs allmänna strategier för felhantering tillsammans med länkar till platsspecifika fel.
 
 ## <a name="handling-errors"></a>Hantera fel
 
 [!INCLUDE [bindings errors intro](../../includes/functions-bindings-errors-retries.md)]
 
-## <a name="binding-error-codes"></a>Fel koder för bindning
+## <a name="binding-error-codes"></a>Felkoder för bindning
 
-Vid integrering med Azure-tjänster kan fel komma från API: erna för underliggande tjänster. Information om platsspecifika fel finns i avsnittet **undantag och retur koder** i följande artiklar:
+Vid integrering med Azure-tjänster kan fel komma från API:erna för underliggande tjänster. Information om platsspecifika fel finns i avsnittet **undantag och retur koder** i följande artiklar:
 
 + [Azure Cosmos DB](functions-bindings-cosmosdb.md#exceptions-and-return-codes)
 
